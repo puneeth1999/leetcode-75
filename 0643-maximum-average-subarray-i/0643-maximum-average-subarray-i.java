@@ -3,8 +3,7 @@ class Solution {
         int sum = 0;
         for(int i = 0; i < k; i++){
             sum += nums[i];
-        }
-        
+        }  
         double max_ = (double)sum/(double)k;
         int i = 0, j = k-1;
         while(j < nums.length-1){
